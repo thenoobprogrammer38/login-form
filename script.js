@@ -10,10 +10,10 @@ function check_inputs() {
             document.getElementById("status").innerHTML = "*Incorrect Username or Password";
             document.getElementById("status").style.color = "red";
         }
+        document.getElementById("user_input").value = "";
+        document.getElementById("pass_input").value = "";   
     } else {
         document.getElementById("status").innerHTML = "*Please Fill Up the Form";
             document.getElementById("status").style.color = "red";
     }
-    document.getElementById("user_input").innerHTML = "";
-    document.getElementById("pass_input").innerHTML = "";
 }
