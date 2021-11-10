@@ -14,4 +14,6 @@ function check_inputs() {
         document.getElementById("status").innerHTML = "*Please Fill Up the Form";
             document.getElementById("status").style.color = "red";
     }
+    document.getElementById("user_input").innerHTML = "";
+    document.getElementById("pass_input").innerHTML = "";
 }
